@@ -14,14 +14,8 @@ header{
 
 
 section{
-    backgruond: rgb(184, 156, 213);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
+    background: rgb(0,0,74);
+    padding-bottom: 30px;
+    padding-top: 40px;
 }
 
-
-div{
-    margin-right: 20px;
-}
