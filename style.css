@@ -3,6 +3,7 @@ body{
     background: black;
     margin:5px;
     font-family: "Black Ops One", system-ui;
+    margin-bottom: 100px;
 }
 
 
@@ -14,7 +15,7 @@ header{
 }
 
 
-section{
+.chamada {
     background: rgb(0,0,74);
     padding-bottom: 30px;
     padding-top: 40px;
@@ -33,6 +34,28 @@ h1 {
 p {
     font-size: 30px;
 }
-img{
+
+.categoria-videos{
+    display:flex;
+    overflow-x:auto;
+    gap: 20px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5; 
     height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+.categoria h2 {
+    color: rgb(96, 155, 91);
 }
